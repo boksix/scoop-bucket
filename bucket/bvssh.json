@@ -1,0 +1,21 @@
+{
+    "version": "8.38",
+    "description": "Bitvise SSH Client: Free SSH file transfer, terminal and tunneling.",
+    "homepage": "https://www.bitvise.com/ssh-client",
+    "license": "Free use",
+    "url": "https://dl.bitvise.com/BvSshClient-Inst.exe",
+    "bin": [
+        "BvSsh.exe",
+        "retry.exe",
+        "sexec.exe",
+        "sftpc.exe",
+        "stermc.exe",
+        "stnlc.exe"
+    ],
+    "shortcuts": [
+        [
+            "BvSsh.exe",
+            "Bitvise SSH Client"
+        ]
+    ]
+}
