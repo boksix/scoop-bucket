@@ -2,8 +2,8 @@
     "version": "0.0.1",
     "license": "UNKNOWN",
     "homepage": "https://gitee.com/yaxin-cn/program-fonts",
-    "url": "https://gitee.com/yaxin-cn/program-fonts/raw/master/Microsoft Yahei Mono.ttf",
-    "hash": "236346f72fea831f950980ade720ad045210ea6312838c198153de823e297f64",
+    "url": "http://cos.evilcode.me/fonts/Microsoft Yahei Mono.ttf",
+    "hash": "29df191093f1b8625dcdce19c0214a7f4d05fcf87616a404876daef235ba5651",
     "depends": "sudo",
     "installer": {
         "script": [
