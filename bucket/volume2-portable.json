@@ -1,5 +1,5 @@
 {
-    "version": "1.1.6",
+    "version": "1.1.5",
     "description": "Advanced Windows volume control",
     "homepage": "https://irzyxa.blogspot.com/",
     "license": {
@@ -27,16 +27,5 @@
             "Volume2PM.exe",
             "Volume2PM"
         ]
-    ],
-    "checkver": {
-        "url": "https://irzyxa.blogspot.com/p/downloads.html",
-        "regex": "Last Release version[\\s\\S]+?Volume&#178; v([\\d.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://desktop-release.notion-static.com/Notion%20Setup%20$version.exe#/cosi.7z"
-            }
-        }
-    }
+    ]
 }
