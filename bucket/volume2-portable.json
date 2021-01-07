@@ -1,23 +1,13 @@
 {
-    "version": "1.1.5",
+    "version": "1.1.6.428",
     "description": "Advanced Windows volume control",
     "homepage": "https://irzyxa.blogspot.com/",
     "license": {
         "identifier": "NoneFree",
         "url": "https://raw.githubusercontent.com/irzyxa/Volume2/master/License.txt"
     },
-    "architecture": {
-        "64bit": {
-            "url": "http://http://volumesqr.at.ua/Release/Volume2_1_1_5_404.zip#/cosi.7z",
-            "hash": "sha512:5e6de82dc9fbc807d2bd34a856c2456d9665f097b246bfc7be5bfe3a1d2c8db58fd833d37076f39c3d3fc490e37dff47231ab9031feffcdd2218920530df7693",
-            "installer": {
-                "script": [
-                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                    "Remove-Item \"$dir\\`$*\" -Recurse"
-                ]
-            }
-        }
-    },
+    "url": "https://volumesqr.at.ua/Release/Volume2_1_1_6_428.zip",
+    "extract_dir": "Volume2",
     "shortcuts": [
         [
             "Volume2.exe",

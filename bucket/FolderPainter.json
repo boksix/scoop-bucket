@@ -4,6 +4,7 @@
     "homepage": "https://www.sordum.org/10124/folder-painter-v1-2/",
     "license": "Unknown",
     "url": "https://www.sordum.org/files/download/folder-painter/FolderPainter.zip",
+    "extract_dir": "FolderPainter",
     "shortcuts": [
         [
             "FolderPainter_x64.exe",
