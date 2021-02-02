@@ -1,0 +1,16 @@
+{
+    "version": "7.9.1",
+    "description": "Network exploration and security auditing utility.",
+    "homepage": "https://nmap.org",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://github.com/nmap/nmap/blob/master/COPYING"
+    },
+    "url": "https://nmap.org/dist/nmap-7.91-win32.zip",
+    "extract_dir": "nmap-7.91",
+    "bin": [
+        "nmap.exe",
+        "ncat.exe",
+        "nping.exe"
+    ]
+}
