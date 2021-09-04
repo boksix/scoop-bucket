@@ -3,7 +3,7 @@
     "description": "Clash Premium",
     "homepage": "https://github.com/Dreamacro/clash",
     "license": "GPL-3.0",
-    "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-$version.zip",
+    "url": "https://github.com/Dreamacro/clash/releases/download/premium/clash-windows-amd64-2021.07.03.zip",
     "bin": [
         [
             "clash-windows-amd64.exe",
