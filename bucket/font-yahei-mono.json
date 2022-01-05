@@ -1,7 +1,8 @@
 {
     "version": "0.0.1",
     "license": "UNKNOWN",
-    "homepage": "https://gitee.com/yaxin-cn/program-fonts",
+    "description": "Program font: yahei patched with mono",
+    "homepage": "https://gitee.com/bookliu/program-fonts",
     "url": "http://cos.evilcode.me/fonts/Microsoft Yahei Mono.ttf",
     "hash": "29df191093f1b8625dcdce19c0214a7f4d05fcf87616a404876daef235ba5651",
     "depends": "sudo",
