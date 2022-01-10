@@ -1,0 +1,33 @@
+{
+    "version": "1.4.15",
+    "description": "API 文档、API 调试、API Mock、API 自动化测试",
+    "homepage": "https://www.apifox.cn/",
+    "license": "Private",
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-windows-latest.zip",
+            "hash": "a6693a1b1778d6d04c792760875b2eb434faf9746691e4d936a53dec6bc39b5a",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\Apifox-$version.exe\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\Apifox-$version.exe\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "url": "https://cdn.apifox.cn/download/Apifox-win32-latest.zip",
+            "hash": "c6f8b1fd8f8eabce35f39659a12a6fe32875b10cb0a9fc043746bc8772a509a9",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\Apifox-$version.exe\" \"$dir\"",
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\", \"$dir\\Apifox-$version.exe\" -Recurse"
+            ]
+        }
+    },
+    "bin": "Apifox.exe",
+    "shortcuts": [
+        [
+            "Apifox.exe",
+            "Apifox"
+        ]
+    ]
+}
