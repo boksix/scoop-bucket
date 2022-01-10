@@ -1,0 +1,24 @@
+{
+    "homepage": "https://www.itefix.net/cwrsync?qt-cwrsync=7",
+    "description": "cwRsync client free edition contains a barebone distribution of Rsync for Windows",
+    "version": "6.2.4",
+    "license": "Proprietary",
+    "architecture": {
+        "64bit": {
+            "url": "https://itefix.net/dl/free-software/cwrsync_$version_x64_free.zip",
+            "hash": "31ac735aa958e06883b9a44154a7397350e565ddc9adcbc8bf548a09cbf40e3e",
+        }
+    },
+    "extract_dir": "cwRsync_$version_x86_Free",
+    "bin": [
+        "bin/rsync.exe"
+    ],
+    "checkver": "cwrsync_([\\d.]+)_x64_free.zip",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://itefix.net/dl/free-software/cwrsync_$version_x64_free.zip"
+            }
+        }
+    }
+}
